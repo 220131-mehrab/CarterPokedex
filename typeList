@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE=~/DataSets/Pokemon/NationalPokedex.csv
+FILE=~/DataSets/Pokemon/CarterPokedex/NationalPokedex.csv
 
 usage()
 {
@@ -26,5 +26,4 @@ if [[ $# -eq 0 ]] ; then
 fi
 
 "$@"
-
 
